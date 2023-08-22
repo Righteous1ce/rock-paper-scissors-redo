@@ -1,0 +1,51 @@
+.play-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.start-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.display{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr auto;
+    background-color: aquamarine;
+    border: 1px solid black ;
+
+
+}
+
+.display > .upper-round-display{
+    grid-column: span 2;
+    
+}
+.round-win-display{
+    grid-column: span 2;
+}
+
+.main-selection-display{
+    grid-column: 1 / 2;
+
+}
+
+.right-display {
+    grid-column: 2 / 3; 
+  }
+  
+.lower-score-display {
+    
+    grid-column: 1 / 2; 
+  }
+  
+.right-score-display {
+    grid-column: 2 / 3; 
+  }
